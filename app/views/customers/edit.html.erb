@@ -1,0 +1,12 @@
+<%= render 'layouts/header' %>
+<div class='container'>
+<h1>Chỉnh sửa thông tin</h1>
+
+<%= render "form", customer: @customer %>
+
+<br>
+
+<div>
+  <button class='btn btn-success'><%= link_to "Quay lại", customers_path %></button>
+</div>
+</div>
